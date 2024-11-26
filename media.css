@@ -1,0 +1,189 @@
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+    .mobilefixed {
+        display: flex;
+    }
+
+    .fixedLogos i,
+    .fixedLogos figure,
+    .fixedLogos figure img {
+        display: none;
+    }
+
+    .fixedLogos {
+        top: 30%;
+        transform: translateY(-30%);
+    }
+
+    header {
+        padding: 22px 0px;
+    }
+
+    header figure {
+        width: 100px;
+    }
+
+    header nav>ul {
+        display: none;
+    }
+
+    header nav i {
+        display: block !important;
+    }
+
+    .bannerInner {
+        height: 250px;
+    }
+
+    .bannerInner .bannerCard {
+        display: none;
+    }
+
+    .overviewInner {
+        flex-direction: column;
+        padding: 50px 20px 100px 20px;
+    }
+
+    .overview .bannerCard {
+        display: block;
+    }
+
+    .bannerCard {
+        width: 100%;
+    }
+
+    .buttons {
+        padding: 0px;
+    }
+
+    .bannerCard button {
+        font-size: 12px;
+    }
+
+    .overContent {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .overContent p {
+        padding: 0px;
+    }
+
+    .featuresInner {
+        flex-direction: column;
+    }
+
+    .productsInner {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 40px;
+    }
+
+    .aminitiesInner {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .aminityBlock {
+        margin-bottom: 15px;
+    }
+
+    .floorMenu {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .floorMenu button:first-child,
+    .floorMenu button:nth-child(2),
+    .floorMenu button:nth-child(3) {
+        flex-basis: 48%;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .floorMenu button:nth-child(2) {
+        margin-top: auto;
+    }
+
+    .floorMenu button:last-child {
+        flex-basis: 100%;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    .galleryInner {
+        padding: 50px 20px;
+    }
+
+    .galleryInner .floorMenu button {
+        flex-basis: 48%;
+    }
+
+    .galleryInner figure img {
+        width: 48%;
+        height: auto;
+    }
+
+    #pricelist {
+        padding: 30px 20px;
+        gap: 0px;
+    }
+
+    #downloads {
+        gap: 0px;
+    }
+
+    .downloadBlock {
+        margin-bottom: 50px;
+    }
+
+    #walkthrough {
+        padding: 0px 20px;
+    }
+
+    #walkthrough iframe {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .faqInner {
+        padding: 50px 20px;
+    }
+
+    .awardsInner figure {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .awardsInner figure img {
+        width: 100%;
+    }
+
+    .footerInner {
+        flex-direction: column;
+        padding: 50px 20px 30px 20px;
+    }
+
+    .footerLeft article {
+        width: 70%;
+    }
+
+    .footerInner>article {
+        margin: 0px;
+    }
+
+    footer>article {
+        padding: 20px;
+        padding-bottom: 65px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .awardsInner figure {
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    .awardsInner figure img {
+        width: 25%;
+    }
+}
